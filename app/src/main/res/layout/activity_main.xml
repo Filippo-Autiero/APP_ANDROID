@@ -9,6 +9,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFE8E8"
+    android:backgroundTint="#FFFFFF"
+    android:foregroundTint="#03A9F4"
     tools:context=".MainActivity">
 
     <!-- @+id/textView = ID identificativo DEL oggetto -->
@@ -17,11 +20,11 @@
     <!-- dp :density-independent pixels  -->
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ImmageTafOlio"
         android:layout_width="229dp"
         android:layout_height="230dp"
         android:contentDescription="@null"
-        android:src="@drawable/immagine2"
+        android:src="@drawable/immagineverticale"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,28 +32,28 @@
         app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btAura"
+        android:layout_width="163dp"
+        android:layout_height="54dp"
         android:layout_marginTop="10dp"
-        android:text="@string/premimi"
+        android:text="Acquista Aura"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/sixseven"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
+        android:text="Joel Taf"
+        app:layout_constraintBottom_toTopOf="@+id/btAura"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@id/ImmageTafOlio" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

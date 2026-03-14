@@ -17,10 +17,10 @@
     <!-- dp :density-independent pixels  -->
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btAura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/premimi"
+        android:text="Acquista Aura"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"
@@ -28,11 +28,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.438" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sixseven"
+        android:minHeight="48dp"
+        android:text="Joel Taf"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -40,20 +41,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.637" />
 
+
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ImmageTafOlio"
         android:layout_width="287dp"
         android:layout_height="282dp"
         android:contentDescription="@null"
-        android:src="@drawable/immagine2"
+        android:src="@drawable/immagineorizontale"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/immagine1" />
-
-
-
+        app:layout_constraintVertical_bias="0.372"
+        tools:srcCompat="@drawable/immagineorizontale" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
